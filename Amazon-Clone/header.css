@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: rgb(15, 17, 17);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-logo {
+    height: 60px;
+    width: 100px;
+}
+
+.logo {
+    height: 45px;
+    width: 100px;
+    margin-top: 8px;
+}
+
+.logo:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+.nav-direction {
+    width: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-direction:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+}
+
+.p1 {
+    font-size: 12px;
+    color: #cccccc;
+    margin: 0;
+    margin-left: 17px;
+}
+
+.p2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 6px;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+}
+
+.All {
+    height: 36px;
+    padding: 0 10px;
+    border: none;
+    border-right: 1px solid #ccc;
+    background-color: rgba(240, 240, 240, 0.868);
+    font-size: 14px;
+}
+
+.All:hover {
+    background-color: rgba(141, 138, 138, 0.817);
+    cursor: pointer;
+}
+
+.input {
+    flex: 1;
+    padding: 8px 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    background-color: #FF9800;
+    display: flex;
+    align-items: center;
+}
+
+.search-button {
+    background-color: #f2c074;
+    border: none;
+    padding: 0 15px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #FF9800;
+    cursor: pointer;
+}
+
+.hello {
+    font-size: 12px;
+}
+
+.lists {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-signin:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.nav-return:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.nav-cart {
+    position: relative;
+}
+
+.nav-cart2 {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #FF9800;
+    border-radius: 50%;
+    font-size: 10px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.span1 {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-cart:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+.flag{
+    font-weight: bold;
+    margin-left: 3px;
+}
+.country:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-2{
+    background-color:  #222f3d;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu{
+    display: flex;
+    height: 35px;
+    padding-top:9px;
+    /* padding-left: 30px; */
+   
+}
+.menu i{
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+.All-2{
+    font-size: 16px;
+    padding-left: 5px;
+    color: white;
+    font-weight: bold;
+}
+.menu:hover{
+    border: 2px solid white;
+}
+.deal-1{
+    margin-left: 6px;
+    
+}
+.today-deals{
+    color: white;
+    margin-top: 1px;
+  }
+.deal-1:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+
+
+.deal-2{
+    margin-left: 12px;
+    
+}
+.deal-3{
+    margin-left: 12px;
+    
+}
+.deal-4{
+    margin-left: 12px;
+    
+}
+.deal-5{
+    margin-left: 12px;
+    
+}
+
+.deal-2:hover,.deal-3:hover,.deal-4:hover,.deal-5:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
